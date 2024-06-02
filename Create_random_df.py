@@ -14,7 +14,7 @@ for i in range(20):
 
 # Introduce correlation
 corr = 0.5
-df['col0'] = df['col0'] + corr * df['col1']
+
 
 # Shuffle the DataFrame
 df = df.sample(frac=1).reset_index(drop=True)
